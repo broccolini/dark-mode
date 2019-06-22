@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "dark-mode",
+  "version": "1.0.0",
+  "description": "You don't know the power of the dark side",
+  "main": "index.js",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "author": "Diana Mounter <broccolini@github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.12",
+    "@mdx-js/mdx": "^1.0.21",
+    "@mdx-js/react": "^1.0.21",
+    "gatsby": "^2.10.0",
+    "gatsby-plugin-styled-components": "^3.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2",
+    "theme-ui": "^0.1.7"
+  }
+}
