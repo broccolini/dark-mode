@@ -1,5 +1,9 @@
 import React from 'react'
 import { useColorMode } from 'theme-ui'
+import {
+  Box,
+  Button,
+} from '@primer/components'
 
 export default props => {
   const [ mode, setMode ] = useColorMode()
@@ -9,11 +13,11 @@ export default props => {
   }
 
   return (
-    <div>
+    <Box>
       <h1>Hello Potato {mode}</h1>
-      <button onClick={toggleMode}>
+      <Button onClick={toggleMode}>
         {mode}
-      </button>
-    </div>
+      </Button>
+    </Box>
   )
 }

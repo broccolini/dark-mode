@@ -14,8 +14,10 @@
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
+    "@githubprimer/octicons-react": "^8.5.0",
     "@mdx-js/mdx": "^1.0.21",
     "@mdx-js/react": "^1.0.21",
+    "@primer/components": "^13.0.0",
     "gatsby": "^2.10.0",
     "gatsby-plugin-styled-components": "^3.1.0",
     "react": "^16.8.6",
