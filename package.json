@@ -7,7 +7,8 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "serve": "gatsby build && gatsby serve"
   },
   "author": "Diana Mounter <broccolini@github.com>",
   "license": "MIT",
