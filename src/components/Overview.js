@@ -9,6 +9,7 @@ import {
 } from '@primer/components'
 import {MarkGithub} from '@githubprimer/octicons-react'
 import Pins from './Pins.js'
+import Contributions from './Contributions.js'
 
 export default props =>
 <Box width={3/4} pl={2}>
@@ -23,4 +24,5 @@ export default props =>
     <UnderlineNav.Link href="#baz">Following <CounterLabel>114</CounterLabel></UnderlineNav.Link>
   </UnderlineNav>
   <Pins />
+  <Contributions />
 </Box>
