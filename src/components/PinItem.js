@@ -17,12 +17,14 @@ const PinItem = ({
   stars,
   forks
 }) => (
-    <BorderBox width={1/2} p={3} mx={2}>
+  <Box width={1/2} px={2} py={2}>
+
+    <BorderBox p={3} >
       <Flex alignItems="center">
         <StyledOcticon icon={Repo} size="16" color="gray.6" mr={2} />
         <Link fontWeight="bold" display="block" href="">{name}</Link>
       </Flex>
-      <Text as="p" fontSize={0} color="gray.5">Jekyll theme inspired by Swiss design</Text>
+      <Text as="p" fontSize={0} color="gray.5">{desc}</Text>
       <Flex flexDirection="row">
         <Flex mr={4} alignItems="center">
           <StyledOcticon icon={PrimitiveDot} size="24" color={languagecolor} mr={1} />
@@ -38,6 +40,8 @@ const PinItem = ({
         </Flex>
       </Flex>
     </BorderBox>
+    </Box>
+
 )
 
 export default PinItem

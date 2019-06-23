@@ -13,13 +13,13 @@ import PinItem from './PinItem.js'
 
 export default props =>
 <Box mt={4}>
-  <Heading fontSize={2} fontWeight="normal" color="gray.9" mb={2}>
+  <Heading fontSize={2} fontWeight="normal" color="gray.9">
     Pinned
   </Heading>
-  <Flex mx={-2}>
+  <Flex mx={-2} flexWrap="wrap">
     <PinItem 
-      name="swiss"
-      desc="Jekyll theme inspired by Swiss design"
+      name="sith"
+      desc="Jekyll theme inspired by Sith design"
       language="HTML"
       languagecolor="red.5"
       stars="118"
@@ -32,6 +32,22 @@ export default props =>
       languagecolor="purple.6"
       stars="8.4k"
       forks="616"
+    />
+    <PinItem 
+      name="50shadesofblk"
+      desc="An exploration of black color palettes."
+      language="HTML"
+      languagecolor="red.5"
+      stars="60"
+      forks="2"
+    />
+    <PinItem 
+      name="primer/components"
+      desc="Primer React Components"
+      language="JavaScript"
+      languagecolor="yellow.4"
+      stars="398"
+      forks="25"
     />
   </Flex>
 </Box>
