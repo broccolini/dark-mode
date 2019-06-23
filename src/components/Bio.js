@@ -18,6 +18,7 @@ export default props =>
   </BorderBox>
   <Heading fontSize={'26px'} lineHeight={1}>Diana Mounter</Heading>
   <Text color="gray.6" fontSize={3} fontWeight="300">broccolini</Text>
+  <Button width={'100%'} mt={3}>Follow</Button>
   <Text as="p" color="gray.9" fontSize={1} fontWeight="normal">
   Actually more into potatoes 🍟. Design Infrastructure Manager at @github working on @primer design system. Organizes @design-systems-coalition-NYC
   </Text>
