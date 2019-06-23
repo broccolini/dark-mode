@@ -59,7 +59,7 @@ const colors = {
   modes: {
     dark: {
       text: white,
-      background: gray[9],
+      background: black,
     }
   }
 }
