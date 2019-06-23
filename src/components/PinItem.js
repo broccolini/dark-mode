@@ -17,24 +17,24 @@ const PinItem = ({
   stars,
   forks
 }) => (
-    <BorderBox width={1/2} p={3} mx={2}>
+    <BorderBox borderColor="border" width={1/2} p={3} mx={2}>
       <Flex alignItems="center">
-        <StyledOcticon icon={Repo} size="16" color="gray.6" mr={2} />
-        <Link fontWeight="bold" display="block" href="">{name}</Link>
+        <StyledOcticon icon={Repo} size="16" color="icon" mr={2} />
+        <Link color="link" fontWeight="bold" display="block" href="">{name}</Link>
       </Flex>
-      <Text as="p" fontSize={0} color="gray.5">Jekyll theme inspired by Swiss design</Text>
+      <Text as="p" fontSize={0} color="textMid">Jekyll theme inspired by Swiss design</Text>
       <Flex flexDirection="row">
         <Flex mr={4} alignItems="center">
-          <StyledOcticon icon={PrimitiveDot} size="24" color="{languagecolor}" mr={1} />
-          <Text color="gray.6" fontSize={0}>{language}</Text>
+          <StyledOcticon icon={PrimitiveDot} size="24" color={languagecolor} mr={1} />
+          <Text color="textMid" fontSize={0}>{language}</Text>
         </Flex>
         <Flex mr={4} alignItems="center">
-          <StyledOcticon icon={Star} size="16" color="gray.6" mr={1} />
-          <Text color="gray.6" fontSize={0}>{stars}</Text>
+          <StyledOcticon icon={Star} size="16" color="icon" mr={1} />
+          <Text color="textMid" fontSize={0}>{stars}</Text>
         </Flex>
         <Flex mr={4} alignItems="center">
-          <StyledOcticon icon={RepoForked} size="16" color="gray.6" mr={1} />
-          <Text color="gray.6" fontSize={0}>{forks}</Text>
+          <StyledOcticon icon={RepoForked} size="16" color="icon" mr={1} />
+          <Text color="textMid" fontSize={0}>{forks}</Text>
         </Flex>
       </Flex>
     </BorderBox>

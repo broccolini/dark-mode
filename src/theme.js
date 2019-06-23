@@ -55,11 +55,21 @@ const colors = {
   },
   // theme-ui specific fields
   text: gray[9],
+  textMid: gray[6],
   background: white,
+  bgHeader: black,
+  icon: gray[6],
+  link: blue[5],
+  border: gray[3],
   modes: {
     dark: {
-      text: white,
+      text: gray[1],
+      textMid: gray[3],
       background: black,
+      bgHeader: gray[9],
+      icon: gray[4],
+      link: blue[3],
+      border: gray[6],
     }
   }
 }
