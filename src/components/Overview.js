@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+  BorderBox,
   Box,
   CounterLabel,
   Flex,
@@ -12,7 +13,7 @@ import Pins from './Pins.js'
 import Contributions from './Contributions.js'
 
 export default props =>
-<Box width={3/4} pl={2}>
+<Box width={3/4} pl={2} px={2}>
   <UnderlineNav>
     <UnderlineNav.Link href="#foo" selected>
       Overview
@@ -24,5 +25,7 @@ export default props =>
     <UnderlineNav.Link href="#baz">Following <CounterLabel>114</CounterLabel></UnderlineNav.Link>
   </UnderlineNav>
   <Pins />
-  <Contributions />
+  <BorderBox as={Flex} justifyContent="center" p={3} width={10/12}> 
+    <Contributions width={'100%'} />
+  </BorderBox>
 </Box>
