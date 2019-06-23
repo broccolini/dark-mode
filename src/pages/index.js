@@ -9,7 +9,7 @@ import {
 } from '@primer/components'
 import Header from '../components/Header.js'
 import Overview from '../components/Overview.js'
-
+import Bio from '../components/Bio.js'
 
 
 export default props => {
@@ -28,9 +28,7 @@ export default props => {
       <BaseStyles>
         <Header />
         <Flex maxWidth="1280px" px={3} mt={6} mx={'auto'}>
-          <Box width={1/4} pr={6}>
-            <Avatar mb={4} src="https://avatars.githubusercontent.com/primer" size={'100%'} />
-          </Box>
+          <Bio />
           <Overview />
         </Flex>
       </BaseStyles>
