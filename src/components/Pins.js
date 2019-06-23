@@ -21,7 +21,7 @@ export default props =>
       name="swiss"
       desc="Jekyll theme inspired by Swiss design"
       language="HTML"
-      color="red.5"
+      languagecolor="red.5"
       stars="118"
       forks="90"
     />
@@ -29,7 +29,7 @@ export default props =>
       name="primer/css"
       desc="The CSS design system that powers GitHub"
       language="CSS"
-      color="purple.6"
+      languagecolor="purple.6"
       stars="8.4k"
       forks="616"
     />

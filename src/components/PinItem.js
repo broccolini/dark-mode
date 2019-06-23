@@ -25,7 +25,7 @@ const PinItem = ({
       <Text as="p" fontSize={0} color="gray.5">Jekyll theme inspired by Swiss design</Text>
       <Flex flexDirection="row">
         <Flex mr={4} alignItems="center">
-          <StyledOcticon icon={PrimitiveDot} size="24" color="{languagecolor}" mr={1} />
+          <StyledOcticon icon={PrimitiveDot} size="24" color={languagecolor} mr={1} />
           <Text color="gray.6" fontSize={0}>{language}</Text>
         </Flex>
         <Flex mr={4} alignItems="center">
