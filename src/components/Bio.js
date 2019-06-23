@@ -17,7 +17,7 @@ export default props =>
 <Box width={1/4} pr={6}>
   <BorderBox mb={3}>
     <Avatar src="anakin.jpeg" size={'100%'} />
-    <Flex px={3} my={2} alignItems="center" >
+    <Flex px={3} my={1} alignItems="center" >
       <Text fontSize={3} mr={1}>🧘‍♂️</Text> 
       <Text color="gray.9" fontSize={0} lineHeight={1.25}>Clearing my mind</Text>
     </Flex>
