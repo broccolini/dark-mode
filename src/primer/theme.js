@@ -52,19 +52,6 @@ const colors = {
   },
   filterList: {
     hoverBg: '#eaecef'
-  },
-  // theme-ui specific fields
-  text: gray[9],
-  background: white,
-  accent: orange[6],
-  link: blue[5],
-  modes: {
-    dark: {
-      text: white,
-      background: black,
-      accent: orange[4],
-      link: blue[4],
-    }
   }
 }
 
@@ -95,8 +82,6 @@ const theme = {
     normal: 400,
     bold: 600
   },
-  // theme-ui specific
-  initialColorMode: 'light',
   colors,
   borders: [0, '1px solid'],
   fontSizes,
@@ -119,19 +104,3 @@ export {colors}
 function fontStack(fonts) {
   return fonts.map(font => (font.includes(' ') ? `"${font}"` : font)).join(', ')
 }
-
-/*
-export default {
-  initialColorMode: 'light',
-  colors: {
-    text: '#000',
-    background: '#fff',
-    modes: {
-      dark: {
-        text: '#fff',
-        background: '#000',
-      },
-    },
-  },
-}
-*/
