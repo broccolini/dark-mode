@@ -49,5 +49,22 @@ export default props =>
       stars="398"
       forks="25"
     />
+    <PinItem 
+      name="dotfiles"
+      desc="anakin does dotfiles"
+      language="Shell"
+      languagecolor="green.3"
+      stars="5.5k"
+      forks="3.1k"
+    />
+    <PinItem 
+      name="podracer"
+      desc="blazing fast"
+      language="Swift"
+      languagecolor="orange.3"
+      stars="3.9k"
+      forks="124"
+    />
+    
   </Flex>
 </Box>
