@@ -23,8 +23,8 @@ export default props => {
   }
 
   // for squares
-  // const fill = colors.light
-  const fill = colors[context.colorMode]
+  const fill = colors.light
+  //const fill = colors[context.colorMode]
 
   const text = {
     light: context.theme.colors.gray[6],
