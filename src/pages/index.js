@@ -16,7 +16,7 @@ export default props =>
   <Box>
     <BaseStyles>
       <Header />
-      <Flex maxWidth="1280px" px={3} mt={6} mx={'auto'}>
+      <Flex maxWidth="1280px" px={3} mt={4} mx={'auto'}>
         <Bio />
         <Overview />
       </Flex>
