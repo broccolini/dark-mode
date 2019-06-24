@@ -17,15 +17,16 @@ export default props => {
   }
 
   return (
-    <Flex bg="black" color="white" p={3}>
-      <StyledOcticon color="white" icon={MarkGithub} size="28" mr={3}/>
+    <Flex bg="gray.9" color="white" p={3} alignItems="center" height={'64px'} >
+      <StyledOcticon color="white" icon={MarkGithub} size="34" my={-2} mr={3}/>
+      <Heading fontSize={2} mr={3} color="gray.4">DEMO</Heading>
       <Flex.Item alignItems="center" width={2/3}>
-        <Link px="2" fontSize="1" fontWeight="bold" color="white" href="">Pull Requests</Link>
-        <Link px="2" fontSize="1" fontWeight="bold" color="white" href="">Issues</Link>
-        <Link px="2" fontSize="1" fontWeight="bold" color="white" href="">Marketplace</Link>
-        <Link px="2" fontSize="1" fontWeight="bold" color="white" href="">Explore</Link>
+        <Link px="2" fontSize="1" fontWeight="bold" color="gray.2" href="">Pull Requests</Link>
+        <Link px="2" fontSize="1" fontWeight="bold" color="gray.2" href="">Issues</Link>
+        <Link px="2" fontSize="1" fontWeight="bold" color="gray.2" href="">Marketplace</Link>
+        <Link px="2" fontSize="1" fontWeight="bold" color="gray.2" href="">Explore</Link>
       </Flex.Item>
-      <Flex justifyContent="flex-end" width={1/3}>
+      <Flex justifyContent="flex-end" width={1/3} my={-1}>
         <Button onClick={toggleMode}>
         <StyledOcticon color="gray.9" icon={LightBulb} size="16" mr={1}/>
           {mode}
