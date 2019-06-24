@@ -62,7 +62,6 @@ const colors = {
     dark: {
       text: white,
       background: black,
-      accent: orange[4],
       link: blue[4],
     }
   }
