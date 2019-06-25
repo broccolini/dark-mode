@@ -14,17 +14,17 @@ export default props => {
       '#196127',
     ],
     dark: [
-      '#333',
-      '#535',
-      '#909',
-      '#c0c',
-      '#f0f',
+      '#2f363d',
+      '#165c26',
+      '#17a238',
+      '#16db43',
+      '#7aff99',
     ]
   }
 
   // for squares
-  const fill = colors.light
-  //const fill = colors[context.colorMode]
+  // const fill = colors.light
+  const fill = colors[context.colorMode]
 
   const text = {
     light: context.theme.colors.gray[6],
