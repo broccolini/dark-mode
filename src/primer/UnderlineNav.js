@@ -21,7 +21,7 @@ function UnderlineNavBase({actions, className, align, children, full, label}) {
 const UnderlineNav = styled(UnderlineNavBase)`
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid ${get('colors.gray.2')};
+  border-bottom: 1px solid ${get('colors.border')};
   &.UnderlineNav--right {
     justify-content: flex-end;
 
@@ -58,14 +58,14 @@ UnderlineNav.Link = styled.a.attrs(props => ({
   margin-right: ${get('space.3')}px;
   font-size: ${get('fontSizes.1')}px;
   line-height: ${get('lineHeights.default')};
-  color: ${get('colors.gray.6')};
+  color: ${get('colors.textSecondary')};
   text-align: center;
   border-bottom: 2px solid transparent;
   text-decoration: none;
 
   &:hover,
   &:focus {
-    color: ${get('colors.gray.9')};
+    color: ${get('colors.text')};
     text-decoration: none;
     border-bottom-color: ${get('colors.gray.3')};
     transition: 0.2s ease;
@@ -77,7 +77,7 @@ UnderlineNav.Link = styled.a.attrs(props => ({
 
   &.selected {
     font-weight: ${get('fontWeights.bold')};
-    color: ${get('colors.gray.9')};
+    color: ${get('colors.text')};
     border-bottom-color: ${get('colors.accent')};
 
     .UnderlineNav-octicon {

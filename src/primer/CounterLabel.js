@@ -10,7 +10,7 @@ const colorStyles = ({scheme, ...props}) => {
         ? get('colors.gray.9')(props)
         : scheme === 'gray'
           ? get('colors.white')(props)
-          : get('colors.gray.6')(props)
+          : get('colors.textSecondary')(props)
   }
 }
 

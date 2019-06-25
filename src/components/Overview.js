@@ -2,7 +2,6 @@ import React from 'react'
 import {
   BorderBox,
   Box,
-  CounterLabel,
   Flex,
   Link,
   Text,
@@ -11,6 +10,7 @@ import Pins from './Pins.js'
 import Contributions from './Contributions.js'
 import UnderlineNav from '../primer/UnderlineNav'
 import FilterList from '../primer/FilterList'
+import CounterLabel from '../primer/CounterLabel'
 
 export default props =>
 <Box width={3/4} pl={2} pl={2}>
