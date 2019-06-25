@@ -21,7 +21,7 @@ const bgStyles = ({scheme, ...props}) => {
         ? get('colors.blackfade15')(props)
         : scheme === 'gray'
           ? get('colors.gray.5')(props)
-          : get('colors.counter.bg')(props)
+          : get('colors.counterBg')(props)
   }
 }
 

@@ -48,7 +48,7 @@ const colors = {
     primaryFocusShadow: 'rgba(52, 208, 88, 0.4)'
   },
   counter: {
-    bg: 'rgba(27, 31, 35, 0.08)'
+    bg: 'rgba(27, 31, 35, 0.08)',
   },
   filterList: {
     hoverBg: '#e1e4e8'
@@ -63,6 +63,7 @@ const colors = {
   border: gray[3],
   icon: gray[6],
   hoverBg: gray[3],
+  counterBg: 'rgba(27, 31, 35, 0.08)',
   modes: {
     dark: {
       text: gray[1],
@@ -73,6 +74,7 @@ const colors = {
       border: gray[6],
       icon: gray[4],
       hoverBg: gray[8],
+      counterBg: 'rgba(255, 255, 255, 0.08)',
     }
   }
 }
