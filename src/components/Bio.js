@@ -3,22 +3,22 @@ import {
   Avatar,
   Box,
   BorderBox,
-  Button,
   Flex,
   Heading,
   Text,
   StyledOcticon,
-} from '@primer/components'
+  Link,
+} from '../primer'
 import {Organization, Location, Link as LinkIcon} from '@githubprimer/octicons-react'
-import Link from '../primer/Link'
 
+import Button from './Button'
 
 export default props =>
 <Box width={1/4} pr={6}>
   <BorderBox mb={3} borderColor="border">
     <Avatar src="anakin.jpeg" size={'100%'} />
     <Flex px={3} my={1} alignItems="center" >
-      <Text fontSize={3} mr={1}>🧘‍♂️</Text> 
+      <Text fontSize={3} mr={1}>🧘‍♂️</Text>
       <Text color="text" fontSize={0} lineHeight={1.25}>Clearing my mind</Text>
     </Flex>
   </BorderBox>

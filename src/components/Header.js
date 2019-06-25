@@ -1,13 +1,13 @@
 import React from 'react'
 import { useColorMode } from 'theme-ui'
 import {
-  Button,
   Flex,
   Heading,
   Link,
   StyledOcticon,
 } from '@primer/components'
 import {MarkGithub, LightBulb} from '@githubprimer/octicons-react'
+import Button from './Button'
 
 export default props => {
   const [ mode, setMode ] = useColorMode()

@@ -75,6 +75,10 @@ const colors = {
       icon: gray[4],
       hoverBg: gray[8],
       counterBg: 'rgba(255, 255, 255, 0.08)',
+      button: {
+        // update this color
+        bg2: 'yellow'
+      }
     }
   }
 }
