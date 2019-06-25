@@ -63,6 +63,16 @@ const colors = {
       text: white,
       background: black,
       link: blue[4],
+      // reversed colors
+      // Array.reverse() mutates the object, so first
+      // the array is cloned with `[...array]`
+      gray: [...gray].reverse(),
+      blue: [...blue].reverse(),
+      green: [...green].reverse(),
+      orange: [...orange].reverse(),
+      purple: [...purple].reverse(),
+      red: [...red].reverse(),
+      yellow: [...yellow].reverse(),
     }
   }
 }
