@@ -25,7 +25,7 @@ const Item = styled(ItemBase)`
   margin: ${props => (props.small ? '0 0 2px' : '0 0 5px 0')};
   overflow: hidden;
   font-size: ${get('fontSizes.1')}px;
-  color: ${props => (props.selected ? get('colors.white') : get('colors.gray.6'))};
+  color: ${props => (props.selected ? get('colors.textReverse') : get('colors.textSecondary'))};
   background-color: ${props => (props.selected ? get('colors.link') : '')}!important;
   text-decoration: none;
   text-overflow: ellipsis;
@@ -34,11 +34,11 @@ const Item = styled(ItemBase)`
   border-radius: ${get('radii.1')}px;
   &:hover {
     text-decoration: none;
-    background-color: ${get('colors.filterList.hoverBg')};
+    background-color: ${get('colors.hoverBg')};
   }
   &:active {
     color: ${get('colors.white')};
-    background-color: ${get('colors.blue.5')};
+    background-color: ${get('colors.link')};
   }
   .count {
     float: right;

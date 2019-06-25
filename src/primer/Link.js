@@ -34,7 +34,7 @@ const Link = styled.a`
 
 Link.defaultProps = {
   theme,
-  color: 'blue.5'
+  color: 'link'
 }
 
 Link.propTypes = {

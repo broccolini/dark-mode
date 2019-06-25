@@ -51,18 +51,28 @@ const colors = {
     bg: 'rgba(27, 31, 35, 0.08)'
   },
   filterList: {
-    hoverBg: '#eaecef'
+    hoverBg: '#e1e4e8'
   },
   // theme-ui specific fields
   text: gray[9],
+  textSecondary: gray[6],
+  textReverse: white,
   background: white,
   accent: orange[6],
   link: blue[5],
+  border: gray[3],
+  icon: gray[6],
+  hoverBg: gray[3],
   modes: {
     dark: {
-      text: white,
+      text: gray[1],
+      textSecondary: gray[3],
+      textReverse: black,
       background: black,
       link: blue[4],
+      border: gray[6],
+      icon: gray[4],
+      hoverBg: gray[8],
     }
   }
 }

@@ -13,7 +13,7 @@ import PinItem from './PinItem.js'
 
 export default props =>
 <Box mt={4}>
-  <Heading fontSize={2} fontWeight="normal" color="gray.9">
+  <Heading fontSize={2} fontWeight="normal" color="text">
     Pinned
   </Heading>
   <Flex mx={-2} flexWrap="wrap">
