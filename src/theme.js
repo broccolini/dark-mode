@@ -67,6 +67,7 @@ const colors = {
   icon: gray[6],
   hoverBg: gray[3],
   counterBg: 'rgba(27, 31, 35, 0.08)',
+  buttonIcon: gray[9],
   modes: {
     dark: {
       text: gray[1],
@@ -78,6 +79,7 @@ const colors = {
       icon: gray[4],
       hoverBg: gray[8],
       counterBg: 'rgba(255, 255, 255, 0.08)',
+      buttonIcon: gray[1],
       button: {
         fg: gray[0],
         bg: gray[8],

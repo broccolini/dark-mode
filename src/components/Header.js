@@ -28,7 +28,7 @@ export default props => {
       </Flex.Item>
       <Flex justifyContent="flex-end" width={1/3} my={-1}>
         <Button onClick={toggleMode}>
-        <StyledOcticon color="gray.9" icon={LightBulb} size="16" mr={1}/>
+        <StyledOcticon color="buttonIcon" icon={LightBulb} size="16" mr={1}/>
           {mode}
         </Button>
       </Flex>
