@@ -19,12 +19,13 @@ export default props => {
       '#17a238',
       '#16db43',
       '#7aff99',
-    ]
+    ],
+    // add other color modes here too
   }
 
   // for squares
   // const fill = colors.light
-  const fill = colors[context.colorMode]
+  const fill = colors[context.colorMode] || colors.light
 
   const text = {
     light: context.theme.colors.gray[6],

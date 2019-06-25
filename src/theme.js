@@ -73,7 +73,8 @@ const colors = {
       border: gray[6],
       icon: gray[4],
       hoverBg: gray[8],
-    }
+    },
+    whatever: {}
   }
 }
 
