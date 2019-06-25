@@ -27,8 +27,11 @@ const colors = {
   },
   button: {
     disabledColor: 'rgba(36, 41, 46, 0.4)',
+    fg: gray[9],
+    bg: gray[0],
     bg2: 'rgb(239, 243, 246)',
     border: 'rgba(27, 31, 35, 0.2)',
+    borderHover: 'rgba(27, 31, 35, 0.35)',
     focusShadow: 'rgba(3, 102, 214, 0.3)',
     activeBg: 'rgb(233, 236, 239)',
     hoverBg: 'rgb(230, 235, 241)',
@@ -76,8 +79,13 @@ const colors = {
       hoverBg: gray[8],
       counterBg: 'rgba(255, 255, 255, 0.08)',
       button: {
-        // update this color
-        bg2: 'yellow'
+        fg: gray[0],
+        bg: gray[8],
+        bg2: gray[8],
+        border: 'rgba(255, 255, 255, 0.2)',
+        borderHover: 'rgba(255, 255, 255, 0.35)',
+        hoverBg: gray[9],
+        hoverBg2: gray[9],
       }
     }
   }

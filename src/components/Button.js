@@ -6,9 +6,9 @@ const Button = styled.button`
   position: relative;
   display: inline-block;
   padding: 6px 12px;
-  color: ${get('colors.gray.9')};
+  color: ${get('colors.button.fg')};
   background-color: ${get('colors.gray.1')};
-  background-image: linear-gradient(-180deg, ${get('colors.gray.0')} 0%, ${get('colors.button.bg2')} 90%);
+  background-image: linear-gradient(-180deg, ${get('colors.button.bg')} 0%, ${get('colors.button.bg2')} 90%);
   font-size: ${get('fontSizes.1')}px;
   font-weight: ${get('fontWeights.bold')};
   line-height: 20px;
@@ -25,9 +25,9 @@ const Button = styled.button`
 
   &:hover {
     background-color: ${get('colors.button.hoverBg')};
-    background-image: linear-gradient(-180deg, ${get('colors.button.bg2')} 0%, ${get('colors.button.hoverBg')} 90%);
+    background-image: linear-gradient(-180deg, ${get('colors.button.hoverBg2')} 0%, ${get('colors.button.hoverBg')} 90%);
     background-position: -0.5em center;
-    border-color: ${get('colors.blackfade35')};
+    border-color: ${get('colors.button.borderHover')};
     text-decoration: none;
     background-repeat: repeat-x;
   }
