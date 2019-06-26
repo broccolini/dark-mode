@@ -19,7 +19,7 @@ export default props => {
   const isDark = context.colorMode !== 'light'
 
   let avatar = 'anakin.jpeg'
-  // if (isDark) avatar = 'vader.jpg'
+  if (isDark) avatar = 'vader.jpg'
 
   return (
     <Box width={1/4} pr={6}>
