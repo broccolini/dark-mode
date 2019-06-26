@@ -3,7 +3,6 @@ import {
   BorderBox,
   Box,
   CounterLabel,
-  FilterList,
   Flex,
   Link,
   Text,
@@ -11,6 +10,7 @@ import {
 import Pins from './Pins.js'
 import Contributions from './Contributions.js'
 import UnderlineNav from '../primer/UnderlineNav'
+import FilterList from '../primer/FilterList'
 
 export default props =>
 <Box width={3/4} pl={2} pl={2}>
