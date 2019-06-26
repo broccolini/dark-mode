@@ -24,13 +24,13 @@ export default props => {
 
   // for squares
   // const fill = colors.light
-  const fill = colors[context.colorMode]
+  const fill = colors[context.colorMode] || colors.light
 
   const text = {
     light: context.theme.colors.gray[6],
     dark: context.theme.colors.gray[3],
   }
-  text.fill = text[context.colorMode]
+  text.fill = text[context.colorMode] || text.light
 
   return (
     <svg width="722" height="112">
