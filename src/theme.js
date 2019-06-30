@@ -59,7 +59,7 @@ const colors = {
   // theme-ui specific fields
   text: gray[9],
   textSecondary: gray[6],
-  textReverse: white,
+  textReverse: gray[1],
   background: white,
   accent: orange[6],
   link: blue[5],
