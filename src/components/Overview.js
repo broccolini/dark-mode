@@ -3,7 +3,6 @@ import {
   BorderBox,
   Box,
   Flex,
-  Link,
   Text,
 } from '@primer/components'
 import Pins from './Pins.js'
@@ -13,7 +12,7 @@ import FilterList from '../primer/FilterList'
 import CounterLabel from '../primer/CounterLabel'
 
 export default props =>
-<Box width={3/4} pl={2} pl={2}>
+<Box width={3/4} pl={2}>
   <UnderlineNav>
     <UnderlineNav.Link href="#foo" selected>
       Overview
@@ -26,7 +25,7 @@ export default props =>
   </UnderlineNav>
   <Pins />
   <Flex mt={5}>
-    <Flex width={1} width={10/12} flexWrap="wrap">
+    <Flex width={10/12} flexWrap="wrap">
       <Text color="text" fontSize={2}>1,666 contributions in the last year</Text>
       <BorderBox borderColor="border" as={Flex} justifyContent="center" p={3} width={1} > 
         <Contributions width={'100%'} />

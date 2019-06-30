@@ -1,11 +1,8 @@
 import React from 'react'
 import {
-  Avatar,
   Box,
-  Button,
   BaseStyles,
   Flex,
-  Heading,
 } from '@primer/components'
 import Header from '../components/Header.js'
 import Overview from '../components/Overview.js'

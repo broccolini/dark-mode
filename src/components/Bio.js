@@ -26,7 +26,7 @@ export default props => {
       <BorderBox mb={3} borderColor="border">
         <Avatar src={avatar} size={'100%'} />
         <Flex px={3} my={1} alignItems="center" >
-          <Text fontSize={3} mr={1}>🧘‍♂️</Text>
+          <Text as="span" fontSize={3} mr={1} role="img">🧘‍♂️</Text>
           <Text color="text" fontSize={0} lineHeight={1.25}>Clearing my mind</Text>
         </Flex>
       </BorderBox>

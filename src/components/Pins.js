@@ -1,14 +1,9 @@
 import React from 'react'
 import {
   Box,
-  BorderBox,
   Flex,
   Heading,
-  Link,
-  StyledOcticon,
-  Text,
 } from '@primer/components'
-import {Star, RepoForked, PrimitiveDot, Repo} from '@githubprimer/octicons-react'
 import PinItem from './PinItem.js'
 
 export default props =>

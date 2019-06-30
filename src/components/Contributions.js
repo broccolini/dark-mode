@@ -1,6 +1,5 @@
 import React from 'react'
 import { useThemeUI } from 'theme-ui'
-import { Box, Text } from '@primer/components'
 
 export default props => {
   const context = useThemeUI()
