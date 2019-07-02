@@ -27,11 +27,8 @@ const colors = {
   },
   button: {
     disabledColor: 'rgba(36, 41, 46, 0.4)',
-    fg: gray[9],
-    bg: gray[0],
     bg2: 'rgb(239, 243, 246)',
     border: 'rgba(27, 31, 35, 0.2)',
-    borderHover: 'rgba(27, 31, 35, 0.35)',
     focusShadow: 'rgba(3, 102, 214, 0.3)',
     activeBg: 'rgb(233, 236, 239)',
     hoverBg: 'rgb(230, 235, 241)',
@@ -51,45 +48,10 @@ const colors = {
     primaryFocusShadow: 'rgba(52, 208, 88, 0.4)'
   },
   counter: {
-    bg: 'rgba(27, 31, 35, 0.08)',
+    bg: 'rgba(27, 31, 35, 0.08)'
   },
   filterList: {
-    hoverBg: '#e1e4e8'
-  },
-  // theme-ui specific fields
-  text: gray[9],
-  textSecondary: gray[6],
-  textReverse: gray[1],
-  background: white,
-  accent: orange[6],
-  link: blue[5],
-  border: gray[3],
-  icon: gray[6],
-  hoverBg: gray[3],
-  counterBg: 'rgba(27, 31, 35, 0.08)',
-  buttonIcon: gray[9],
-  modes: {
-    dark: {
-      text: gray[1],
-      textSecondary: gray[3],
-      textReverse: black,
-      background: black,
-      link: blue[4],
-      border: gray[6],
-      icon: gray[4],
-      hoverBg: gray[8],
-      counterBg: 'rgba(255, 255, 255, 0.08)',
-      buttonIcon: gray[1],
-      button: {
-        fg: gray[0],
-        bg: gray[8],
-        bg2: gray[8],
-        border: 'rgba(255, 255, 255, 0.2)',
-        borderHover: 'rgba(255, 255, 255, 0.35)',
-        hoverBg: gray[9],
-        hoverBg2: gray[9],
-      }
-    }
+    hoverBg: '#eaecef'
   }
 }
 
@@ -120,8 +82,6 @@ const theme = {
     normal: 400,
     bold: 600
   },
-  // theme-ui specific
-  initialColorMode: 'light',
   colors,
   borders: [0, '1px solid'],
   fontSizes,
@@ -144,19 +104,3 @@ export {colors}
 function fontStack(fonts) {
   return fonts.map(font => (font.includes(' ') ? `"${font}"` : font)).join(', ')
 }
-
-/*
-export default {
-  initialColorMode: 'light',
-  colors: {
-    text: '#000',
-    background: '#fff',
-    modes: {
-      dark: {
-        text: '#fff',
-        background: '#000',
-      },
-    },
-  },
-}
-*/
