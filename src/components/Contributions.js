@@ -21,6 +21,8 @@ export default props => {
     ]
   }
 
+  colors.darkReversed = [...colors.light].reverse()
+
   // for squares
   // const fill = colors.light
   const fill = colors[context.colorMode] || colors.light
