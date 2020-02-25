@@ -93,6 +93,41 @@ const colors = {
   }
 }
 
+// based on reversing arrays of blue, green, etc
+const reverse = arr => [...arr].reverse()
+const reversed = {
+  gray: reverse(gray),
+  blue: reverse(blue),
+  green: reverse(green),
+  orange: reverse(orange),
+  purple: reverse(purple),
+  red: reverse(red),
+  yellow: reverse(yellow),
+}
+colors.modes.darkReversed = {
+  ...reversed,
+  // same as default/light color mode
+  // duplicated here since colors aren't self-referenced in theme object
+  text: reversed.gray[9],
+  textSecondary: reversed.gray[6],
+  textReverse: reversed.gray[1],
+  background: black,
+  accent: reversed.orange[6],
+  link: reversed.blue[5],
+  border: reversed.gray[3],
+  icon: reversed.gray[6],
+  hoverBg: reversed.gray[3],
+  // counterBg: '??',
+  buttonIcon: reversed.gray[9],
+  button: {
+    fg: reversed.gray[9],
+    bg: reversed.gray[0],
+    bg2: reversed.gray[0],
+    hoverBg: reversed.gray[9],
+    hoverBg2: reversed.gray[9],
+  },
+}
+
 const theme = {
   breakpoints: ['544px', '768px', '1012px', '1280px'],
   maxWidths: {

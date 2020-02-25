@@ -9,11 +9,19 @@ import {
 import {MarkGithub, LightBulb} from '@githubprimer/octicons-react'
 import Button from './Button'
 
+const modes = [
+  'light',
+  'dark',
+  'darkReversed',
+]
+
 export default props => {
   const [ mode, setMode ] = useColorMode()
 
-  const toggleMode = () => {
-    setMode(mode === 'dark' ? 'light' : 'dark')
+  const cycleMode = () => {
+    const i = modes.indexOf(mode)
+    const next = modes[(i + 1) % modes.length]
+    setMode(next)
   }
 
   return (
@@ -27,7 +35,7 @@ export default props => {
         <Link px="2" fontSize="1" fontWeight="bold" color="gray.2" href="">Explore</Link>
       </Flex.Item>
       <Flex justifyContent="flex-end" width={1/3} my={-1}>
-        <Button onClick={toggleMode}>
+        <Button onClick={cycleMode}>
         <StyledOcticon color="buttonIcon" icon={LightBulb} size="16" mr={1}/>
           {mode}
         </Button>
